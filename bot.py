@@ -139,7 +139,7 @@ async def generate_finance_chart(update: Update, context: ContextTypes.DEFAULT_T
 
     plt.figure(figsize=(7, 4))
     plt.bar(categories, values, color=['#2ecc71', '#e74c3c', '#3498db'])
-    plt.title('Moliyaviy Holat Statistikasi (So'm)')
+    plt.title('Moliyaviy Holat Statistikasi (So\'m)')
     plt.ylabel('Mablağ')
 
     buf = io.BytesIO()
