@@ -134,7 +134,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ==========================================
 async def generate_finance_chart(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Moliya holatini visual grafik (PNG) ko'rinishida chiqarib beradi."""
-    categories = ['Daromad', 'Xarajat', 'Jamg'arma Maqsadi']
+    categories = ['Daromad', 'Xarajat', 'Jamg\'arma Maqsadi']
     values = [user_finance["income"], user_finance["expense"], user_finance["savings_goal"]]
 
     plt.figure(figsize=(7, 4))
